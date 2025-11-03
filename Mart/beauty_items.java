@@ -1,0 +1,50 @@
+package P4;
+public abstract class beauty_items{
+	public static final String RT = "\u001B[0m";
+	public static final String PU = "\u001B[35m";
+	public static final String P = "\u001B[95m";
+	public abstract void faceWash();
+	public abstract void moisturizer();
+	public abstract void sunscreen();
+        public abstract void exfoliatingScrub();
+	public abstract void facemaskpack();
+	public abstract void toner();
+	public abstract void serum();
+	public abstract void shampoo();
+	public abstract void conditioner();
+	public abstract void hairOil();
+	public abstract void perfume();
+	public abstract void straighteners();
+	public abstract void LipBalm();
+	public abstract void hairGel();
+	public abstract void eyebrowPencil();
+	public abstract void eyeLiner();
+	public abstract void mascara();
+	public abstract void lipstick();
+        public abstract void hairSerum();
+	public abstract void babyCream();
+	public static void display_beauty(){
+	System.out.println(P+"1.Face Wash----------100ml-----$500");
+	System.out.println("2.Moisturizer--------80g-------$250");
+	System.out.println("3.Sunscreen----------80g-------$500");
+	System.out.println("4.Exfoliating Scrub--200g------$200");
+	System.out.println("5.FaceMask Pack------25ml------$150");
+	System.out.println("6.Toner--------------400ml-----$150");
+	System.out.println("7.Serum--------------30ml------$526");
+	System.out.println("8.Shampoo------------1.2litres-$575");
+	System.out.println("9.Conditioner--------175ml-----$240");
+	System.out.println("10.Hair Oil----------400ml-----$200");
+	System.out.println("11.Perfume-----------100ml-----$280");
+	System.out.println("12.Straighteners-----1piece----$2697");
+	System.out.println("13.Lip Balm----------4.8g------$202");
+	System.out.println("14.Hair Gel----------50g-------$110");
+	System.out.println("15.Eyebrow Pencil----1piece----$456");
+	System.out.println("16.EyeLiner----------3.7g------$323");
+	System.out.println("17.Mascara-----------10ml------$274");
+	System.out.println("18.Lipstick----------1.7g------$1649");
+	System.out.println("19.Hair Serum--------175ml-----$837");
+	System.out.println("20.Baby Cream--------100g------$523"+RT);
+	System.out.println(PU+"99.Go Back to display menu");
+	System.out.println("press 100 to Checkout with selected item"+RT);
+	}		
+}

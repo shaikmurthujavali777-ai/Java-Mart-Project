@@ -1,0 +1,56 @@
+package P6;
+public abstract class electronics{
+	public static final String RT = "\u001B[0m";
+	public static final String PU = "\u001B[35m";
+	public static final String B = "\u001B[38;5;94m";
+	public abstract void speaker();
+	public abstract void smartwatch();
+	public abstract void earbuds();
+	public abstract void hairdryer();
+	public abstract void coffeemaker();
+	public abstract void sandwichmaker();
+	public abstract void massager();
+	public abstract void hairstraightener();
+	public abstract void ricecooker();
+	public abstract void juicermixer();
+	public abstract void grinder();
+	public abstract void ledlight();
+	public abstract void washingmachine();
+	public abstract void geyser();
+	public abstract void airpurifier();
+	public abstract void fan();
+	public abstract void ac();
+	public abstract void adapter();
+	public abstract void phone();
+	public abstract void usbcable();
+	public abstract void tv();
+	public abstract void laptop();
+	public abstract void powerbanks();
+	public static void display_electronics(){
+		System.out.println(B+"1.speaker-------------1pc-----$1099");
+		System.out.println("2.smartwatch----------1pc-----$1299");
+		System.out.println("3.earbuds-------------1pc-----$1199");
+		System.out.println("4.hairdryer-----------1pcs----$1849");
+		System.out.println("5.coffeemaker---------300ml---$999");
+		System.out.println("6.sandwichmaker-------1pc-----$899");
+		System.out.println("7.massager------------1pc-----$4499");
+		System.out.println("8.hairstraightener----1pc-----$4599");
+		System.out.println("9.ricecooker----------5ltrs---$1499");
+		System.out.println("10.juicermixer--------1pc-----$1499");
+		System.out.println("11.grinder------------1pc-----$5599");
+		System.out.println("12.ledlight-----------3pc-----$59");
+		System.out.println("13.washingmachine-----7kgs----$25499");
+		System.out.println("14.geyser-------------1pc-----$3899");
+		System.out.println("15.airpurifier--------1pc-----$7959");
+		System.out.println("16.fan----------------2pc-----$1299");
+		System.out.println("17.ac-----------------1pc-----$29299");
+		System.out.println("18.adapter------------1pc-----$599");
+		System.out.println("19.phone--------------1pc-----$7929");
+		System.out.println("20.usecable-----------1pc-----$199");
+		System.out.println("21.tv-----------------1pc-----$24499");
+		System.out.println("22.laptop-------------1pc-----$65099");
+		System.out.println("23.powerbanks---------1pc-----$1399"+RT);
+		System.out.println(PU+"99.Go Back to display menu");
+		System.out.println("Press 100 to checkout with selected item"+RT);
+	}
+}

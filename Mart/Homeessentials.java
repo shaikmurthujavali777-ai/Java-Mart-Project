@@ -1,0 +1,54 @@
+package P7;
+public abstract class Homeessentials{
+	public static final String RT = "\u001B[0m";
+	public static final String PU = "\u001B[35m";
+	public static final String TR = "\u001B[1;31m";
+	public abstract void chopper();
+	public abstract void icetong();
+	public abstract void steelknife();
+	public abstract void wallmirror();
+	public abstract void curtain();
+	public abstract void pressurecooker();
+	public abstract void spoonstand();
+	public abstract void nonsticktawa();
+	public abstract void glassbeermug();
+	public abstract void bedsheet();
+	public abstract void lamp();
+	public abstract void wallclock();
+	public abstract void ceramicplate();
+	public abstract void plantstand();
+	public abstract void floorrug();
+	public abstract void mattress();
+	public abstract void storagecabinet();
+	public abstract void diningtable();
+	public abstract void sofa();
+	public abstract void officechair();
+	public abstract void laptoptable();
+	public abstract void oildispenser();
+	public static void display_homeessentials(){
+	System.out.println(TR+"1.chopper----------250ml--------$499");
+	System.out.println("2.icetong----------1pc----------$81");
+	System.out.println("3.steelknife-------1pc----------$299");
+	System.out.println("4.wallmirror-------4pcs---------$799");
+	System.out.println("5.curtain----------7ft----------$1902");
+	System.out.println("6.pressurecooker---3ltrs--------$2499");
+	System.out.println("7.spoonstand-------1pc----------$1499");
+	System.out.println("8.nonsticktawa-----1pc----------$599");
+	System.out.println("9.glassbeermug-----500ml--------$999");
+	System.out.println("10.bedsheet--------1pc----------$499");
+	System.out.println("11.lamp------------1pc----------$699");
+	System.out.println("12.wallclock-------1pc----------$1259");
+	System.out.println("13.ceramicplate----5pcs---------$479");
+	System.out.println("14.plantstand------2pcs---------$299");
+	System.out.println("15.floorrug--------3pcs---------$599");
+	System.out.println("16.mattress--------1pc----------$6929");
+	System.out.println("17.storagecabinet--1pc----------$2199");
+	System.out.println("18.diningtable-----4seater------$1499");
+	System.out.println("19.sofa------------3seater------$14499");
+	System.out.println("20.officechair-----1pc----------$5099");
+	System.out.println("21.laptoptable-----1pc----------$499");
+	System.out.println("22.oildispenser----2pcs---------$399"+RT);
+	System.out.println(PU+"99.Go Back to display menu");
+	System.out.println("Press 100 to checkout with selected item"+RT);
+	}
+}

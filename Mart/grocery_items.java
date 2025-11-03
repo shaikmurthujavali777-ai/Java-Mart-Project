@@ -1,0 +1,50 @@
+package P3;
+public abstract class grocery_items{
+	public static final String RT = "\u001B[0m";
+	public static final String PU = "\u001B[35m";
+	public static final String TG = "\u001B[32m";
+	public abstract void rice();
+	public abstract void wheatFlour();
+	public abstract void sugar();
+        public abstract void salt();
+	public abstract void cookingOil();
+	public abstract void turmericpowder();
+	public abstract void redchillipowder();
+	public abstract void mustardSeeds();
+	public abstract void milk();
+	public abstract void teaPowder();
+	public abstract void curd();
+	public abstract void bread();
+	public abstract void eggs();
+	public abstract void detergentPowder();
+	public abstract void toothPaste();
+	public abstract void paneer();
+	public abstract void vermicelli();
+	public abstract void chicken();
+        public abstract void chickenMasala();
+	public abstract void noodles();
+	public static void display_groceries(){
+	System.out.println(TG+"1.Rice----------------------1Kg------$75");
+	System.out.println("2.Wheat Flour---------------1Kg------$70");
+	System.out.println("3.Sugar---------------------1Kg------$47");
+	System.out.println("4.Salt----------------------1Kg------$30");
+	System.out.println("5.Cooking Oil---------------1litre---$160");
+	System.out.println("6.Turmeric Powder-----------500g-----$110");
+	System.out.println("7.Red ChilliPowder----------500g-----$250");
+	System.out.println("8.Mustard Seeds-------------200g-----$50");
+	System.out.println("9.Milk----------------------1litre---$80");
+	System.out.println("10.Tea Powder---------------100g-----$90");
+	System.out.println("11.Curd---------------------500g-----$50");
+	System.out.println("12.Bread--------------------500g-----$60");
+	System.out.println("13.Eggs---------------------12pieces-$90");
+	System.out.println("14.Detergent Powder---------1Kg------$70");
+	System.out.println("15.Tooth Paste--------------150g-----$100");
+	System.out.println("16.Paneer-------------------200g-----$190");
+	System.out.println("17.Vermicelli---------------400g-----$37");
+	System.out.println("18.Chicken------------------1Kg------$300");
+	System.out.println("19.Chicken Masala-----------100g-----$38");
+	System.out.println("20.Noodles------------------95g------$20"+RT);
+	System.out.println(PU+"99.Go Back to display menu");
+	System.out.println("press 100 to Checkout with selected item"+RT);
+	}	
+}

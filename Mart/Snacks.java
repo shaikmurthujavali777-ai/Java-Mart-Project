@@ -1,0 +1,56 @@
+package P5;
+public abstract class Snacks{
+	public static final String RT = "\u001B[0m";
+	public static final String PU = "\u001B[35m";
+	public static final String LB = "\u001B[38;5;180m";
+	public abstract void chips();
+	public abstract void moongdal();
+	public abstract void nuts();
+	public abstract void snickers();
+	public abstract void dairymilk();
+	public abstract void popcorn();
+	public abstract void soyasticks();
+	public abstract void peanutchikki();
+	public abstract void kitkat();
+	public abstract void fivestar();
+	public abstract void ladoo();
+	public abstract void aloobhujia();
+	public abstract void goobles();
+	public abstract void darkfantasy();
+	public abstract void bourbon();
+	public abstract void britannia();
+	public abstract void parle();
+	public abstract void sunfeast();
+	public abstract void brownie();
+	public abstract void unibic();
+	public abstract void cakes();
+	public abstract void chocorolls();
+	public abstract void chocopie();
+	public static void display_snacks(){
+	System.out.println(LB+"1.Chips-----------1Pc------$51");
+	System.out.println("2.Moongdal--------1Pc------$60");
+	System.out.println("3.Nuts------------1Pc------$55");
+	System.out.println("4.Snickers--------1Pc------$76");
+	System.out.println("5.Dairymilk-------1Pc------$109");
+	System.out.println("6.Popcorn---------1Pc------$30");
+	System.out.println("7.Soyasticks------1Pc------$45");
+	System.out.println("8.Peanutchikki----1Pc------$100");
+	System.out.println("9.Kitkat----------1Pc------$25");
+	System.out.println("10.Fivestar-------1Pc------$150");
+	System.out.println("11.Ladoo----------1Kg------$149");
+	System.out.println("12.Aloobhujia-----1Pc------$55");
+	System.out.println("13.Goobles--------1Pc------$60");
+	System.out.println("14.Darkfantasy----1Pc------$67");
+	System.out.println("15.Bourbon--------1Pc------$80");
+	System.out.println("16.Britannia------1Pc------$154");
+	System.out.println("17.Parle----------1Pc------$137");
+	System.out.println("18.Sunfeast-------1Pc------$106");
+	System.out.println("19.Brownie--------1Pc------$67");
+	System.out.println("20.Unibic---------1Pc------$87");
+	System.out.println("21.Cakes----------1Pc------$126");
+	System.out.println("22.Chocorolls-----1Pc------$98");
+	System.out.println("23.Chocopie-------1Pc------$129"+RT);
+	System.out.println(PU+"99.Go Back to display menu");
+	System.out.println("press 100 to Checkout with selected item"+RT);
+	}
+}
